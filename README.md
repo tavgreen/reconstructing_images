@@ -1,4 +1,4 @@
-# generating images using Auto-Encoder
+# Image Generation using Auto-Encoder
 ## Description ##
 This project is about how to generate MNIST images using Auto Encoder from MNIST Image.
 Image generation can be useful for reconstructing poor quality image or improve existing image.
@@ -6,6 +6,7 @@ MNIST File can be found at [Yann Lecun](http://yann.lecun.com/exdb/mnist/).
 This project is developed by using [Tensorflow](http://tensorflow.org).
 
 ## Methods ##
+An Auto-Encoder Neural Network is Unsupervised Learning..
 
 ## How Program Works ##
 - import libraries: *tensorflow, numpy and matplotlib*.
