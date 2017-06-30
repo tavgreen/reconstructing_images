@@ -9,13 +9,13 @@ This project is developed by using Tensorflow (http://tensorflow.org).
 
 ## How Program Works ##
 - import libraries: tensorflow, numpy and matplotlib.
-'''
+```
 import tensorflow as tf #load tensorflow library, aliases as tf
 from tensorflow.examples.tutorials.mnist import input_data #load mnist library
 import numpy as np #load numpy library
 import matplotlib.pyplot as plt #load matplotlib library to plot or save generated image
 import matplotlib.image as mpimg
-'''
+```
 ## Results ##
 
 ## Future Works ##
