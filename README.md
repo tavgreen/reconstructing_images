@@ -7,7 +7,12 @@ This project is developed by using [Tensorflow](http://tensorflow.org).
 
 ## Methods ##
 An Auto-Encoder Neural Network is Unsupervised Learning that can be used to reconstruct images. suppose there is no label for each data x = {x1,x2,..,xn} and we want to reconstruct x = x. Auto Encoder architecture can be seen as follow:
-![Gambar](https://raw.github.com/tavgreen/generating_images/master/architecture.png?raw=true "Auto Encoder")
+![Fig.1](https://raw.github.com/tavgreen/generating_images/master/architecture.png?raw=true "Auto Encoder")
+
+above architecture describes MNIST image with size 28 * 28 will be reconstructed into MNIST image. each input pixel (28 * 28 = 784 pixel) will be forwared into hidden 1 until hidden 3. Hidden 1 consists of 256 neurons, hidden 2 consists 128 neurons and so on. Each neuron (blue circle) in hidden consists of weights and biases from previous layer (blue line). Neuron can be calculated as follows:
+
+![Fig.2](https://raw.github.com/tavgreen/generating_images/master/formula.png?raw=true "Auto Encoder")
+
 
 ## How Program Works ##
 - import libraries: *tensorflow, numpy and matplotlib*.
