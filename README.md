@@ -30,14 +30,12 @@ mnist = input_data.read_data_sets("/tmp/data",one_hot=True)
 ```
 - define *weight and biases* in python dictionary. you can give random initialization stddev=0.01.
 ```
-weights = { #definition weight #stddev to give random value to each weight.
-		'encoder1': tf.Variable(tf.truncated_normal([input_size,hidden_1],stddev=0.01)), #connect 28 * 28 --> 256
+weights = { 'encoder1': tf.Variable(tf.truncated_normal([input_size,hidden_1],stddev=0.01)), #connect 28 * 28 --> 256
 		'encoder2': tf.Variable(tf.truncated_normal([hidden_1,hidden_2],stddev=0.01)), #connect 256 --> 128
 		... }
-biases = { #definition of biases
-		'encoder1': tf.Variable(tf.truncated_normal([hidden_1],stddev=0.01)),
+biases = {'encoder1': tf.Variable(tf.truncated_normal([hidden_1],stddev=0.01)),
 		'encoder2': tf.Variable(tf.truncated_normal([hidden_2],stddev=0.01)),
-    ... }
+    		... }
 ```
 - connect *weight and biases * with neural network operation x * w + b. you can make it in layers as follow:
 ```
