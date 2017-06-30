@@ -2,7 +2,7 @@
 ## Description ##
 This project is about how to generate MNIST images using Auto Encoder from MNIST Image.
 Image generation can be useful for reconstructing poor quality image or improve existing image.
-MNIST File can be found at [Yann Lecun](http://yann.lecun.com/exdb/mnist/).
+MNIST File can be found at [Yann Lecun](http://yann.lecun.com/exdb/mnist/){:target="_blank"} .
 This project is developed by using [Python3.6](https://www.python.org/downloads/release/python-360/), [Tensorflow](http://tensorflow.org) and Matplotlib 
 
 ## Methods ##
