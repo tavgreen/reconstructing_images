@@ -7,11 +7,11 @@ This project is developed by using [Python3.6](https://www.python.org/downloads/
 
 ## Methods ##
 An Auto-Encoder Neural Network is Unsupervised Learning that can be used to reconstruct images. suppose there is no label for each data x = {x1,x2,..,xn} and we want to reconstruct x = x. Auto Encoder architecture can be seen as follow:
-![Fig.1](https://raw.github.com/tavgreen/generating_images/master/architecture.png?raw=true "Auto Encoder")
+![Fig.1](https://raw.github.com/tavgreen/generating_images/master/file/architecture.png?raw=true "Auto Encoder")
 
 above architecture describes MNIST image with size 28 * 28 will be reconstructed into MNIST image. each input pixel (28 * 28 = 784 pixel) will be forwared into hidden 1 until hidden 3. Hidden 1 consists of 256 neurons, hidden 2 consists 128 neurons and so on. Each neuron (blue circle) in hidden consists of weights and biases from previous layer (blue line). Neuron can be calculated as follows:
 
-![Fig.2](https://raw.github.com/tavgreen/generating_images/master/formula.png?raw=true "Auto Encoder")
+![Fig.2](https://raw.github.com/tavgreen/generating_images/master/file/formula.png?raw=true "Auto Encoder")
 
 in above picture, let say pixel[0,0]=1 and pixel[0,1]=0 from MNIST image. each pixels (784 pixels) will be mapped into one neuron(x1 or x2 or .. xn).  each x has weight and bias that will be connected into next layer let say h1. h1 can be calculated as above picture. after that, sigmoid function as activation function will be worked as above picture.
 
