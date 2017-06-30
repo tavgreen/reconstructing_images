@@ -82,8 +82,8 @@ for i in range(8):
 
 ## Future Works ##
 you can generate or reconstruct images using your own dataset. the example can be found list below:
--  Generate Pokemon images by @github/musicmilif
--  Generate MNIST images using Variational-Auto Encoder by @kvfrans
+-  Generate Pokemon images by [@musicmilif](https://github.com/musicmilif/Pokemon-Generator)
+-  Generate MNIST images using Variational-Auto Encoder by [@kvfrans](https://github.com/kvfrans/variational-autoencoder)
 
 the paper about image generation can be found here:
 - DRAW Recurrent Neural Network [Gregor et al](https://arxiv.org/abs/1502.04623)
