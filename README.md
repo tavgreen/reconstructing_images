@@ -2,8 +2,8 @@
 ## Description ##
 This project is about how to generate MNIST images using Auto Encoder from MNIST Image.
 Image generation can be useful for reconstructing poor quality image or improve existing image.
-MNIST File by [Yann Lecun] can be found at (http://yann.lecun.com/exdb/mnist/).
-This project is developed by using Tensorflow (http://tensorflow.org).
+MNIST File can be found at [Yann Lecun](http://yann.lecun.com/exdb/mnist/).
+This project is developed by using [Tensorflow](http://tensorflow.org).
 
 ## Methods ##
 
@@ -81,3 +81,10 @@ for i in range(8):
 ## Results ##
 
 ## Future Works ##
+you can generate or reconstruct images using your own dataset. the example can be found list below:
+-  Generate Pokemon images by @musicmilif
+-  Generate MNIST images using Variational-Auto Encoder by @kvfrans
+
+the paper about image generation can be found here:
+- DRAW Recurrent Neural Network [Gregor et al](https://arxiv.org/abs/1502.04623)
+- Tutorial Variational Auto Encoder [Doersch](https://arxiv.org/abs/1606.05908)
