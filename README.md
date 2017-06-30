@@ -50,7 +50,7 @@ l6 = tf.nn.relu(tf.add(tf.matmul(l5, weights['decoder3']),biases['decoder3']))#l
 y_predict = model(x) #fill y_predict with model
 y_true = x #label = x (input)
 ```
-- set cost function (MSE) and optimizer (RMSPropOptimizer). you also can use another type of cost function and optimizer like [Adam](https://www.tensorflow.org/api_docs/p…) or [AdaGrad (https://www.tensorflow.org/api_docs/python/tf/train/AdagradOptimizer)
+- set cost function (MSE) and optimizer (RMSPropOptimizer). you also can use another type of cost function and optimizer like [Adam](https://www.tensorflow.org/api_docs/p…) or [AdaGrad](https://www.tensorflow.org/api_docs/python/tf/train/AdagradOptimizer)
 ```
 cost = tf.reduce_mean(tf.pow(tf.subtract(y_true,y_predict),2))
 optimizer = tf.train.RMSPropOptimizer(learning_rate).minimize(cost)
@@ -82,7 +82,7 @@ for i in range(8):
 
 ## Future Works ##
 you can generate or reconstruct images using your own dataset. the example can be found list below:
--  Generate Pokemon images by @musicmilif
+-  Generate Pokemon images by @github/musicmilif
 -  Generate MNIST images using Variational-Auto Encoder by @kvfrans
 
 the paper about image generation can be found here:
