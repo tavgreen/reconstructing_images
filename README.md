@@ -6,7 +6,8 @@ MNIST File can be found at [Yann Lecun](http://yann.lecun.com/exdb/mnist/).
 This project is developed by using [Tensorflow](http://tensorflow.org).
 
 ## Methods ##
-An Auto-Encoder Neural Network is Unsupervised Learning..
+An Auto-Encoder Neural Network is Unsupervised Learning that can be used to reconstruct images. suppose there is no label for each data x = {x1,x2,..,xn} and we want to reconstruct x = x. Auto Encoder architecture can be seen as follow:
+![Gambar](https://raw.github.com/tavgreen/generating_images/master/architecture.png?raw=true "Auto Encoder")
 
 ## How Program Works ##
 - import libraries: *tensorflow, numpy and matplotlib*.
