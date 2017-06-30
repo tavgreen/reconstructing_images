@@ -13,6 +13,9 @@ above architecture describes MNIST image with size 28 * 28 will be reconstructed
 
 ![Fig.2](https://raw.github.com/tavgreen/generating_images/master/formula.png?raw=true "Auto Encoder")
 
+in above picture, let say pixel[0,0]=1 and pixel[0,1]=0 from MNIST image. each pixels (784 pixels) will be mapped into one neuron(x1 or x2 or .. xn).  each x has weight and bias that will be connected into next layer let say h1. h1 can be calculated as above picture. after that, sigmoid function as activation function will be worked as above picture.
+
+after mapping into output layer (reconstructed image), loss function will be calculated using Mean Square Error (MSE) in order to calculate backpropagation and update weights and biases in previous layer. The calculation of loss function and calling backpropagation will be repeated until the end of epoch or until convergence.
 
 ## How Program Works ##
 - import libraries: *tensorflow, numpy and matplotlib*.
