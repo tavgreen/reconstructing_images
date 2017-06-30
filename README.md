@@ -89,11 +89,8 @@ for i in range(8):
 	plt.imsave("result"+str(i)+".png",np.reshape(autoencoder[i],(img_h,img_h)), cmap=plt.get_cmap('gray'))
 ```
 ## Results ##
-![Fig.3](https://raw.github.com/tavgreen/generating_images/master/file/4.png?raw=true "MNIST 4")
-
-![Fig.4](https://raw.github.com/tavgreen/generating_images/master/file/6.png?raw=true "MNIST 6")
-
-![Fig.5](https://raw.github.com/tavgreen/generating_images/master/file/7.png?raw=true "MNIST 7")
+After running 1000 epoch (3 hours training), the result of image generation can be seen below:
+![Fig.3](https://raw.github.com/tavgreen/generating_images/master/file/4.png?raw=true "MNIST 4") ![Fig.4](https://raw.github.com/tavgreen/generating_images/master/file/6.png?raw=true "MNIST 6") ![Fig.5](https://raw.github.com/tavgreen/generating_images/master/file/7.png?raw=true "MNIST 7")
 ## Future Works ##
 you can generate or reconstruct images using your own dataset. the example can be found list below:
 -  Generate Pokemon images by [@musicmilif](https://github.com/musicmilif/Pokemon-Generator)
