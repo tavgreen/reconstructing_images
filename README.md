@@ -90,6 +90,7 @@ for i in range(8):
 ```
 ## Results ##
 After running 1000 epoch (3 hours training), the result of image generation can be seen below:
+
 ![Fig.3](https://raw.github.com/tavgreen/generating_images/master/file/4.png?raw=true "MNIST 4") ![Fig.4](https://raw.github.com/tavgreen/generating_images/master/file/6.png?raw=true "MNIST 6") ![Fig.5](https://raw.github.com/tavgreen/generating_images/master/file/7.png?raw=true "MNIST 7")
 ## Future Works ##
 you can generate or reconstruct images using your own dataset. the example can be found list below:
