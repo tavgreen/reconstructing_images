@@ -23,7 +23,7 @@ img_h = 28 #image height
 hidden_1 = 256 #hidden layer 1
 ...
 input_size=img_w * img_h
-```python
+```
 - load *MNIST dataset*
 ```python
 mnist = input_data.read_data_sets("/tmp/data",one_hot=True)
@@ -44,9 +44,9 @@ l2 = tf.nn.sigmoid(tf.add(tf.matmul(l1, weights['encoder2']),biases['encoder2'])
 	...
 l6 = tf.nn.relu(tf.add(tf.matmul(l5, weights['decoder3']),biases['decoder3']))#layer 6 = l5 * w6 + b
 	
-```python
-- set y_predict = generating image and y_true = input data.
 ```
+- set y_predict = generating image and y_true = input data.
+```python
 y_predict = model(x) #fill y_predict with model
 y_true = x #label = x (input)
 ```
