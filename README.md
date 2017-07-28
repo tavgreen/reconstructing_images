@@ -1,7 +1,7 @@
-# Image Generation using Auto-Encoder
+# Image Reconstruction using Auto-Encoder
 ## Description ##
 This project is about how to generate MNIST images using Auto Encoder from MNIST Image.
-Image generation can be useful for reconstructing poor quality image or improve existing image.
+Image Reconstruction can be useful for reconstructing poor quality image or improve existing image.
 MNIST File can be found at [Yann Lecun](http://yann.lecun.com/exdb/mnist/).
 This project is developed by using [Python3.6](https://www.python.org/downloads/release/python-360/), [Tensorflow](http://tensorflow.org) and Matplotlib 
 
@@ -89,7 +89,7 @@ for i in range(8):
 	plt.imsave("result"+str(i)+".png",np.reshape(autoencoder[i],(img_h,img_h)), cmap=plt.get_cmap('gray'))
 ```
 ## Results ##
-After running 1000 epoch (3 hours training), the result of image generation can be seen below:
+After running 1000 epoch (3 hours training), the result of image reconstruction can be seen below:
 
 ![Fig.3](https://raw.github.com/tavgreen/generating_images/master/file/4.png?raw=true "MNIST 4") ![Fig.4](https://raw.github.com/tavgreen/generating_images/master/file/6.png?raw=true "MNIST 6") ![Fig.5](https://raw.github.com/tavgreen/generating_images/master/file/7.png?raw=true "MNIST 7")
 ## Future Works ##
@@ -97,6 +97,6 @@ you can generate or reconstruct images using your own dataset. the example can b
 -  Generate Pokemon images by [@musicmilif](https://github.com/musicmilif/Pokemon-Generator)
 -  Generate MNIST images using Variational-Auto Encoder by [@kvfrans](https://github.com/kvfrans/variational-autoencoder)
 
-the paper about image generation can be found here:
+the paper about image reconstruction/generation can be found here:
 - DRAW Recurrent Neural Network [Gregor et al](https://arxiv.org/abs/1502.04623)
 - Tutorial Variational Auto Encoder [Doersch](https://arxiv.org/abs/1606.05908)
